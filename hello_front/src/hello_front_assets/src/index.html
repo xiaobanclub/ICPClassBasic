@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>js_microblog</title>
+    <base href="/" />
+    <link rel="icon" href="favicon.ico" />
+    <!-- Minified version -->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  </head>
+  <body>
+    <header><h1>Microblog</h1></header>
+    <main>
+      <label for="otp">OTP(*)</label>
+      </br>
+      <input id="otp"></input>
+      </p>
+
+      <label for="author">pls set author:</label>
+      </br>
+      <textarea id="author"></textarea>
+      </br>
+      <button id="setAuthor">Set Author</button>&nbsp;<span id="error2"></span>
+      </p>
+
+      <label for="message">What do you want to post?</label>
+      </br>
+      <textarea id="message"></textarea>
+      </br>
+      <button id="post">Post</button>&nbsp;<span id="error"></span>
+      </p>
+
+      👇 FOLLOWS 👇<p>
+      <section id="follows"></section>
+
+      👇 TIMELINE 👇<p>
+      <section id="timeline"></section>
+
+      👇 POSTS 👇<p>
+      <section id="posts"></section>
+
+    </main>
+  </body>
+</html>
